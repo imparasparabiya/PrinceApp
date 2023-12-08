@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prince App</string>
+    <string name="user_id_email_no">User ID/Email/No.</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_my_app">Welcome to My App</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="contact">Contact</string>
+</resources>

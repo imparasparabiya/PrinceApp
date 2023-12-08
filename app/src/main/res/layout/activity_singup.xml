@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SingupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350sp"
+            android:layout_height="500sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/DarkBlue"
+            app:cardCornerRadius="10sp"
+            app:cardElevation="5sp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sing_up"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="50sp"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtfastname"
+                    style="@style/ThemeOverlay.Material3"
+                    android:layout_width="130sp"
+                    android:layout_height="35sp"
+                    android:layout_margin="10sp"
+                    android:hint="Fast name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/Animation.Design.BottomSheetDialog"
+                        android:layout_width="130sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_butten"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtsurename"
+                    style="@style/ThemeOverlay.Material3"
+                    android:layout_width="130sp"
+                    android:layout_height="35sp"
+                    android:layout_margin="10sp"
+                    android:hint="Sure name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/Animation.Design.BottomSheetDialog"
+                        android:layout_width="130sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_butten"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="10sp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtcnt"
+                    style="@style/ThemeOverlay.Material3"
+                    android:layout_width="280sp"
+                    android:layout_height="35sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="110sp"
+                    android:hint="@string/contact">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/Animation.Design.BottomSheetDialog"
+                        android:layout_width="280sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_butten"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtemail"
+                    style="@style/ThemeOverlay.Material3"
+                    android:layout_width="280sp"
+                    android:layout_height="35sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="20sp"
+                    android:hint="@string/email">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/Animation.Design.BottomSheetDialog"
+                        android:layout_width="280sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_butten"
+                        android:inputType="text"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtpassword"
+                    style="@style/ThemeOverlay.Material3"
+                    android:layout_width="280sp"
+                    android:layout_height="35sp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginTop="20sp"
+                    android:hint="@string/password">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        style="@style/Animation.Design.BottomSheetDialog"
+                        android:layout_width="280sp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_butten"
+                        android:inputType="textPassword"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/singup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/sing_up"
+                    android:textSize="20sp"
+                    android:layout_marginTop="30sp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/DarkBlue"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:background="@drawable/round_background"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
+
