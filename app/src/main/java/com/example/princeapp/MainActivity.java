@@ -25,7 +25,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent intent = new Intent(MainActivity.this,ThirdActivity.class);
 
+                String id = intent.getStringExtra("id");
+                String pass = intent.getStringExtra("pass");
+
+
+                startActivity(intent);
 
             }
         });
@@ -34,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,SingupActivity.class);
 
-                startActivities(new Intent[]{intent});
+
+
             }
         });
     }

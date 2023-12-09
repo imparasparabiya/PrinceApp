@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PrinceApp"
         tools:targetApi="31">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
             android:name=".SingupActivity"
             android:exported="false" />
         <activity
