@@ -10,4 +10,8 @@
     <string name="all_dileses_food_for_you">All Dileses Food for You</string>
     <string name="pizza">Pizza</string>
     <string name="burger">Burger</string>
+    <string name="manchurian">Manchurian</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="cold_drink">Cold Drink</string>
+    <string name="ice_cream">Ice Cream</string>
 </resources>
