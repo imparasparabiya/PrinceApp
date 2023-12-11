@@ -10,8 +10,39 @@
     <string name="all_dileses_food_for_you">All Dileses Food for You</string>
     <string name="pizza">Pizza</string>
     <string name="burger">Burger</string>
-    <string name="manchurian">Manchurian</string>
+    <string name="food">Fast Food</string>
     <string name="sandwich">Sandwich</string>
     <string name="cold_drink">Cold Drink</string>
     <string name="ice_cream">Ice Cream</string>
+    <string name="cheese_pizza">Cheese Pizza</string>
+    <string name="veggie_pizza">Veggie Pizza</string>
+    <string name="pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="meat_pizza">Meat Pizza</string>
+    <string name="Margherita_pizza">Margherita Pizza</string>
+    <string name="bbq_chicken_pizza">BBQ Chicken Pizza</string>
+    <string name="all_type_of_pizza">All Type of Pizza</string>
+    <string name="all_type_of_burger">All Type of Burger</string>
+    <string name="paneer_burger">Paneer and Green Peas Burger</string>
+    <string name="pizza_burger">Pizza Burger Bowl</string>
+    <string name="nutritious_burger">Nutritious Burger</string>
+    <string name="spicy_burger">Spicy Paneer Burger</string>
+    <string name="chawli_burger">Chawli Beans and Mint Burger</string>
+    <string name="whole_burger">Whole Wheat Vegetable Burger</string>
+    <string name="all_type_of_sandwich">All Type of Sandwich</string>
+    <string name="regular_sandwich">Regular plain old sandwich</string>
+    <string name="open_faced_sandwich">Open Faced Sandwich</string>
+    <string name="wrap_sandwich">Wrap Sandwich</string>
+    <string name="pinwheel_sandwich">Pinwheel Sandwich</string>
+    <string name="grilled_sandwich">Grilled Sandwich</string>
+    <string name="double_decker_sandwich">Stacked or Double Decker Sandwich</string>
+    <string name="all_type_of_fat_food">All Type of Fast Food</string>
+    <string name="dry_manchurian">Dry Manchurian</string>
+    <string name="french_fries">French Fries</string>
+    <string name="frankie">Schezwan Paneer Frankie</string>
+    <string name="dosa">Masala Dosa</string>
+    <string name="hot_dog">Hot Dog</string>
+    <string name="vada_pav">Vada Pav</string>
+    <string name="ice_cream">Ice Cream</string>
+
+
 </resources>

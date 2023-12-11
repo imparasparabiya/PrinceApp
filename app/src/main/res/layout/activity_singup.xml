@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/DarkBlue"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SingupActivity">
@@ -19,7 +19,7 @@
             android:layout_width="350sp"
             android:layout_height="500sp"
             android:layout_gravity="center"
-            app:cardBackgroundColor="@color/DarkBlue"
+            app:cardBackgroundColor="#A6A29C9C"
             app:cardCornerRadius="10sp"
             app:cardElevation="5sp"
             app:cardUseCompatPadding="true">
@@ -171,7 +171,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="7"
-        android:background="@drawable/round_background"
+        android:background="@drawable/roung_backgroundup"
         android:orientation="vertical">
 
     </LinearLayout>
