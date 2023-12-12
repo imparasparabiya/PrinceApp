@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20sp"
@@ -27,6 +28,7 @@
                 android:textColor="@color/DarkBlue"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
         </androidx.cardview.widget.CardView>
 
 
@@ -47,35 +49,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="200sp"
-                android:layout_height="200sp"
-                android:layout_gravity="center"
-                android:layout_marginTop="5sp"
-                app:cardCornerRadius="100sp"
-                app:cardElevation="30sp">
-
-                <ImageView
-                    android:layout_width="100sp"
-                    android:layout_height="100sp"
-                    android:layout_marginTop="10sp"
-                   android:layout_gravity="center_horizontal"
-                    android:src="@drawable/openface" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center"
-                    android:layout_marginTop="25sp"
-                    android:padding="10sp"
-                    android:text="@string/open_faced_sandwich"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+                android:id="@+id/chocolate"
                 android:layout_width="200sp"
                 android:layout_height="200sp"
                 android:layout_gravity="center"
@@ -88,7 +62,7 @@
                     android:layout_height="100sp"
                     android:layout_marginTop="10sp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/openface" />
+                    android:src="@drawable/chocolateicecream" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -97,13 +71,180 @@
                     android:gravity="center"
                     android:layout_marginTop="25sp"
                     android:padding="10sp"
-                    android:text="@string/open_faced_sandwich"
+                    android:text="@string/chocolate_ice_cream"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kulfi"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                app:cardCornerRadius="100sp"
+                app:cardElevation="30sp">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/kulfi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="25sp"
+                    android:padding="10sp"
+                    android:text="@string/kulfi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sbyicecream"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                app:cardCornerRadius="100sp"
+                app:cardElevation="30sp">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/strawberryfrozenyogurt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25sp"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="@string/stramberry_icecream"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vanilla"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                app:cardCornerRadius="100sp"
+                app:cardElevation="30sp">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/vanilla" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25sp"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="@string/vanilla_icecream"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/havmor"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                app:cardCornerRadius="100sp"
+                app:cardElevation="30sp">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/havmor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25sp"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="@string/havmor_icecream"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/thickshake"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                app:cardCornerRadius="100sp"
+                app:cardElevation="30sp">
+
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/thickshake" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="25sp"
+                    android:gravity="center"
+                    android:padding="10sp"
+                    android:text="@string/thick_shake"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

@@ -42,7 +42,18 @@
     <string name="dosa">Masala Dosa</string>
     <string name="hot_dog">Hot Dog</string>
     <string name="vada_pav">Vada Pav</string>
-    <string name="ice_cream">Ice Cream</string>
+    <string name="chocolate_ice_cream">Chocolate Ice Cream</string>
+    <string name="kulfi">Kulfi</string>
+    <string name="stramberry_icecream">Strawberry Frozen Yogurt</string>
+    <string name="vanilla_icecream">Vanilla Ice Cream</string>
+    <string name="havmor_icecream">Havmor Ice Cream</string>
+    <string name="thick_shake">Thick Milk Shake</string>
+    <string name="soft_drink">Soft Drink</string>
+    <string name="mojito_drink">Mojito Drink</string>
+    <string name="cocktail_glasses">Cocktail Glasses</string>
+    <string name="colddrink_can">Cold Drink Can</string>
+    <string name="fruits_colddrink">Fruits with Cold Drink</string>
+    <string name="fruit_juice">Fruit Juice</string>
 
 
 </resources>

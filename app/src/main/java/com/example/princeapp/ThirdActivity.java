@@ -27,37 +27,43 @@ public class ThirdActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ThirdActivity.this,PizzaActivity.class);
+                startActivity(intent);
             }
         });
         imgburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ThirdActivity.this,BurgerActivity.class);
+                startActivity(intent);
             }
         });
         imgsandwich.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ThirdActivity.this,SandwichActivity.class);
+                startActivity(intent);
             }
         });
         imgfastfood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ThirdActivity.this, FastfoodActivity.class);
+                startActivity(intent);
 
             }
         });
         imgicecream.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(ThirdActivity.this, IcecreamActivity.class);
+                startActivity(intent);
             }
         });
         imgcolddrink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+            Intent intent = new Intent(ThirdActivity.this,ColddrinkActivity.class);
+                startActivity(intent);
             }
         });
     }
