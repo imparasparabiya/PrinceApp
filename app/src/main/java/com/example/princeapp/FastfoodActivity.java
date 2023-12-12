@@ -1,10 +1,11 @@
 package com.example.princeapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class FastfoodActivity extends AppCompatActivity {
 CardView drymanchurian,franchfries,frankie,dosa,hotdog,vadapav;
@@ -22,37 +23,43 @@ CardView drymanchurian,franchfries,frankie,dosa,hotdog,vadapav;
         drymanchurian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         franchfries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         frankie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         dosa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         hotdog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         vadapav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
     }

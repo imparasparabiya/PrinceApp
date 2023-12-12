@@ -54,6 +54,12 @@
     <string name="colddrink_can">Cold Drink Can</string>
     <string name="fruits_colddrink">Fruits with Cold Drink</string>
     <string name="fruit_juice">Fruit Juice</string>
+    <string name="enter_your_oder_place">Enter Your Oder Place</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="express">Express</string>
+    <string name="normal">Normal</string>
+    <string name="delivery_type">Delivery Type</string>
 
 
 </resources>

@@ -1,5 +1,6 @@
 package com.example.princeapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -23,37 +24,43 @@ public class PizzaActivity extends AppCompatActivity {
         cheesepizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         veggiepizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         pepperonipizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         meatpizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         margheritapizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         bbqpizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
 

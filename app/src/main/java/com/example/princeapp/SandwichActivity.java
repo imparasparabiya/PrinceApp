@@ -1,10 +1,11 @@
 package com.example.princeapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class SandwichActivity extends AppCompatActivity {
 
@@ -25,37 +26,43 @@ public class SandwichActivity extends AppCompatActivity {
         regularsnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         opensnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         wrapsnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         pinweelsnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         grilledsnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         sddsnd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SandwichActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
     }

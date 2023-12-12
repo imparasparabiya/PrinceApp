@@ -3,6 +3,7 @@ package com.example.princeapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -22,37 +23,43 @@ public class BurgerActivity extends AppCompatActivity {
         paneerburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         pizzaburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         nutritiousburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         spicyburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         chawliburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
         wholeburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
+                startActivity(intent);
             }
         });
 
