@@ -60,6 +60,8 @@
     <string name="express">Express</string>
     <string name="normal">Normal</string>
     <string name="delivery_type">Delivery Type</string>
+    <string name="your_name">Your Name</string>
+    <string name="shipping_address">Shipping Address</string>
 
 
 </resources>

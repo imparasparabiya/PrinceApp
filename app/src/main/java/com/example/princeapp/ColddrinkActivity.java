@@ -31,36 +31,29 @@ public class ColddrinkActivity extends AppCompatActivity {
         mojito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColddrinkActivity.this, PlaceActivity.class);
-                startActivity(intent);
-            }
+                            }
         });
         cocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColddrinkActivity.this, PlaceActivity.class);
-                startActivity(intent);
             }
         });
         cancolddrink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColddrinkActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         fruitsdrink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColddrinkActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         fruitjuice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColddrinkActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
     }

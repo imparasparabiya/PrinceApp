@@ -47,7 +47,7 @@
             style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense"
             android:layout_width="wrap_content"
             android:layout_height="50sp"
-            android:hint="Your Name">
+            android:hint="@string/your_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="300sp"
@@ -116,7 +116,7 @@
             style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense"
             android:layout_width="wrap_content"
             android:layout_height="50sp"
-            android:hint="Shipping Address">
+            android:hint="@string/shipping_address">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="300sp"

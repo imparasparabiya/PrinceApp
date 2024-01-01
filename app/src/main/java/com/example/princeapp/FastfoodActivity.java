@@ -30,36 +30,31 @@ CardView drymanchurian,franchfries,frankie,dosa,hotdog,vadapav;
         franchfries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         frankie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         dosa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         hotdog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         vadapav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FastfoodActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
     }

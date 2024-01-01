@@ -30,36 +30,31 @@ public class BurgerActivity extends AppCompatActivity {
         pizzaburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         nutritiousburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         spicyburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         chawliburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         wholeburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(BurgerActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
 

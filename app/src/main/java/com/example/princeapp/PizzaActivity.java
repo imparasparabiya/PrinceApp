@@ -31,36 +31,31 @@ public class PizzaActivity extends AppCompatActivity {
         veggiepizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         pepperonipizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         meatpizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         margheritapizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
         bbqpizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PizzaActivity.this, PlaceActivity.class);
-                startActivity(intent);
+
             }
         });
 
